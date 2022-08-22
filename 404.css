@@ -3,6 +3,10 @@ body, html{
     padding: 0px;
 }
 
+*{
+    font-family: "Barlow";
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -10,7 +14,6 @@ body, html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Barlow";
     margin: 0px;
 }
 
@@ -19,6 +22,7 @@ h1{
     font-size: 8rem;
     margin: 0px;
     animation: name duration timing-function delay iteration-count direction fill-mode;
+    text-shadow: 3px 3px 0px aqua;
 }
 
 h2{
@@ -27,6 +31,7 @@ h2{
 
 button{
     cursor: pointer;
+    transition: all 200ms;
 }
 
 .socials{
@@ -39,7 +44,20 @@ button{
     height: 40px;
     background-color: white;
     border-radius: 6px;
-    
-    
 }
+
+#button_home{
+    font-size: 1.1rem;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0px aqua;
+}
+
+button:hover{
+    background-color: rgba(128, 128, 128, 0.671) !important;
+}
+
+
 
