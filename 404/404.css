@@ -1,0 +1,45 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow";
+    margin: 0px;
+}
+
+
+h1{
+    font-size: 8rem;
+    margin: 0px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+.socials{
+    margin-top: 20px;
+}
+
+.social_icons{
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 6px;
+    
+    
+}
+
